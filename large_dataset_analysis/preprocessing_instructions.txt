@@ -1,0 +1,40 @@
+1) Generate csvs of the links to scrape
+    -   The only important thing is that these csvs have the list of links in a single column
+
+2) Use csv_to_url_list.ipynb to get a list of top level links to scrape
+
+3) Put these lists in the ./urls/ folder
+
+4) Modify url_lists.py to load the list, to make them available to the scraper
+
+5) Load the list into the breadth first search scraper (breadth_first_link_search.py)
+    -   Be sure to specify an output directory where the lists will be saved as pickle files
+
+6) Run the scraper amd populate that directory
+
+7) Bring these lists back from the VM and run through generate_link_dataframe.ipynb to create
+dataframes which the next scraper will use to visit the links
+    - This file checks for failed sites, these sites will either need to be removed or replaced
+    for the subsequent scrape
+
+8) Put the link dataframes back into the ./urls/ folder and add code to load them into
+url_lists.py
+
+9) Create a directory in datadir for your scrape, point the directories listed in 
+html_from_df_real.py and html_from_df_fake.py there, then run them to scrape.
+    - This is a somewhat active process, due to unforeseen errors. Sometimes the program needs
+    rebooted. Generally, you can expect it to take a day or two to scrape ~10,000 links.
+
+10) Transfer the scraped files back into "content analysis" using gsutil.
+
+11) Gather the visible text and the meta tags by running extract_features.ipynb
+    - Manually
+        - Specify the folder containing the fake and real html
+        - Specify the output folder for each of the fake and real scraped visible text and 
+        meta tags
+
+12) Filter the visible text using filter_text.ipynb
+
+13) Generate the final featurized dataframe using generate_featurized_dataframe.ipynb
+
+14) Run analyses using final_analysis.ipynb

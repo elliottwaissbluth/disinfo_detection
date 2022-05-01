@@ -1,0 +1,5 @@
+      metric  lower_bound      mean  upper_bound
+0   accuracy     0.758503  0.783720     0.808937
+1         f1     0.750858  0.777802     0.804745
+2  precision     0.752835  0.789345     0.825855
+3     recall     0.729065  0.768418     0.807771

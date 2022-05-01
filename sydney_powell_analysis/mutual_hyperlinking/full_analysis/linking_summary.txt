@@ -1,0 +1,148 @@
+~~~~~~~~~~ OVERALL ~~~~~~~~~~~
+MOST INCOMING LINKS
+         domain label  num_incoming_sites  num_incoming_real_sites  num_incoming_fake_sites
+  .facebook.com  real                6260                     4472                     1788
+   .twitter.com  real                5872                     4466                     1406
+   .youtube.com  real                4787                     3743                     1044
+ .instagram.com  real                3835                     3374                      461
+  .linkedin.com  real                3089                     2654                      435
+
+MOST INCOMING LINKS FROM REAL SITES
+         domain label  num_incoming_real_sites
+  .facebook.com  real                     4472
+   .twitter.com  real                     4466
+   .youtube.com  real                     3743
+ .instagram.com  real                     3374
+  .linkedin.com  real                     2654
+
+MOST INCOMING LINKS FROM FAKE SITES
+              domain label  num_incoming_fake_sites
+       .facebook.com  real                     1788
+        .twitter.com  real                     1406
+        .youtube.com  real                     1044
+ .washingtonpost.com  real                      870
+            .usa.gov  real                      811
+
+MOST OUTGOING LINKS
+                 domain label  num_outgoing_sites  num_outgoing_real_sites  num_outgoing_fake_sites
+        .wakeupkiwi.com  fake                 598                      277                      321
+     .conservapedia.com  fake                 376                      225                      151
+     .moonofalabama.org  fake                 357                      267                       90
+          .wikiwand.com  real                 334                      325                        9
+ .survivalinstitute.com  fake                 300                      293                        7
+
+MOST OUTGOING LINKS TO REAL SITES
+                   domain label  num_outgoing_real_sites
+            .wikiwand.com  real                      325
+   .survivalinstitute.com  fake                      293
+ .conservativerevival.com  fake                      289
+          .wakeupkiwi.com  fake                      277
+       .moonofalabama.org  fake                      267
+
+MOST OUTGOING LINKS TO FAKE SITES
+                  domain label  num_outgoing_fake_sites
+         .wakeupkiwi.com  fake                      321
+      .conservapedia.com  fake                      151
+         .whatfinger.com  fake                      142
+ .whatreallyhappened.com  fake                      114
+      .moonofalabama.org  fake                       90
+
+
+~~~~~~~~~~ ONLY REAL SITES ~~~~~~~~~~~
+MOST INCOMING LINKS
+         domain label  num_incoming_sites  num_incoming_real_sites  num_incoming_fake_sites
+  .facebook.com  real                6260                     4472                     1788
+   .twitter.com  real                5872                     4466                     1406
+   .youtube.com  real                4787                     3743                     1044
+ .instagram.com  real                3835                     3374                      461
+  .linkedin.com  real                3089                     2654                      435
+
+MOST INCOMING LINKS FROM REAL SITES
+         domain label  num_incoming_real_sites
+  .facebook.com  real                     4472
+   .twitter.com  real                     4466
+   .youtube.com  real                     3743
+ .instagram.com  real                     3374
+  .linkedin.com  real                     2654
+
+MOST INCOMING LINKS FROM FAKE SITES
+              domain label  num_incoming_fake_sites
+       .facebook.com  real                     1788
+        .twitter.com  real                     1406
+        .youtube.com  real                     1044
+ .washingtonpost.com  real                      870
+            .usa.gov  real                      811
+
+MOST OUTGOING LINKS
+        domain label  num_outgoing_sites  num_outgoing_real_sites  num_outgoing_fake_sites
+ .wikiwand.com  real                 334                      325                        9
+   .marefa.org  real                 175                      169                        6
+ .upworthy.com  real                 174                      172                        2
+  .zergnet.com  real                 158                      156                        2
+ .newsweek.com  real                 154                      152                        2
+
+MOST OUTGOING LINKS TO REAL SITES
+        domain label  num_outgoing_real_sites
+ .wikiwand.com  real                      325
+ .upworthy.com  real                      172
+   .marefa.org  real                      169
+  .zergnet.com  real                      156
+ .newsweek.com  real                      152
+
+MOST OUTGOING LINKS TO FAKE SITES
+                 domain label  num_outgoing_fake_sites
+              .bing.com  real                       10
+          .wikiwand.com  real                        9
+ .realclearpolitics.com  real                        7
+           .nytimes.com  real                        6
+       .ballotpedia.org  real                        6
+
+
+~~~~~~~~~~ ONLY FAKE SITES ~~~~~~~~~~~
+MOST INCOMING LINKS
+             domain label  num_incoming_sites  num_incoming_real_sites  num_incoming_fake_sites
+    .freebeacon.com  fake                 733                        3                      730
+   .naturalnews.com  fake                 500                        0                      500
+ .theepochtimes.com  fake                 497                        2                      495
+     .zerohedge.com  fake                 435                        2                      433
+     .brighteon.com  fake                 374                        0                      374
+
+MOST INCOMING LINKS FROM REAL SITES
+              domain label  num_incoming_real_sites
+      .xinhuanet.com  fake                       37
+           .digg.com  fake                       32
+            .tmz.com  fake                       25
+   .thriveglobal.com  fake                       23
+ .nationalreview.com  fake                       16
+
+MOST INCOMING LINKS FROM FAKE SITES
+             domain label  num_incoming_fake_sites
+    .freebeacon.com  fake                      730
+   .naturalnews.com  fake                      500
+ .theepochtimes.com  fake                      495
+     .zerohedge.com  fake                      433
+     .brighteon.com  fake                      374
+
+MOST OUTGOING LINKS
+                   domain label  num_outgoing_sites  num_outgoing_real_sites  num_outgoing_fake_sites
+          .wakeupkiwi.com  fake                 598                      277                      321
+       .conservapedia.com  fake                 376                      225                      151
+       .moonofalabama.org  fake                 357                      267                       90
+   .survivalinstitute.com  fake                 300                      293                        7
+ .conservativerevival.com  fake                 296                      289                        7
+
+MOST OUTGOING LINKS TO REAL SITES
+                   domain label  num_outgoing_real_sites
+   .survivalinstitute.com  fake                      293
+ .conservativerevival.com  fake                      289
+          .wakeupkiwi.com  fake                      277
+       .moonofalabama.org  fake                      267
+            .alternet.org  fake                      242
+
+MOST OUTGOING LINKS TO FAKE SITES
+                  domain label  num_outgoing_fake_sites
+         .wakeupkiwi.com  fake                      321
+      .conservapedia.com  fake                      151
+         .whatfinger.com  fake                      142
+ .whatreallyhappened.com  fake                      114
+      .moonofalabama.org  fake                       90

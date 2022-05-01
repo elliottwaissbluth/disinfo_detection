@@ -1,0 +1,141 @@
+# Docker volume
+docker-volume/
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache
+
+# firefox directories
+firefox-bin/
+Firefox*.app/
+Nightly*.app/
+firefox-profile
+
+# VIM tmp files
+*~
+.*.sw*
+
+# A bug in selenium creates this on unix systems
+C:\\nppdf32Log\\debuglog.txt
+
+# PyCharm
+.idea/*
+*.idea
+*/idea
+.Trash-0
+
+#VSCode
+.vscode
+
+# Local Python virtual environments
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+#lib/
+#lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.log
+*.pot
+
+# Sphinx documentation
+docs/_build/
+docs/apidoc/
+
+# npm packages
+node_modules
+
+# built extension artifacts
+openwpm/Extension/firefox/dist
+openwpm/Extension/firefox/openwpm.xpi
+openwpm/Extension/firefox/src/content.js
+openwpm/Extension/firefox/src/feature.js
+
+/datadir/crawl-data*
+/datadir/custom-crawl-data*
+/datadir/openwpm.log
+/datadir/screenshots
+
+/datadir/real*
+/datadir/fake*
+/datadir/sources_real*
+/datadir/sources_fake*
+**/content_analysis/BERT
+**/content_analysis/html_parsed
+**/content_analysis/image classifier
+**/content_analysis/mutual_hyperlinking
+**/content_analysis/parsed
+**/content_analysis/raw_sources
+**/content_analysis/top level links
+**/content_analysis/sources
+**.DS_Store
+**/screenshots
+**tokenized_df_all_text.pkl
+**BERT_df_all_text.pkl
+**/analyses v2/html_df_tokenized.pkl
+**/analyses v2/logit_signs.pkl
+**/analyses v2/logit_tokens.pkl
+**/analyses v2/logit_weights.pkl
+**/analyses v2/top_tokens.txt
+**/content_analysis/html_parsed.rar
+**/datadir/html_real*
+**/datadir/html_fake*
+**/datadir/newsguard*
+**/new data
+**/avast_code
+**/meta_tags_parsed
+**domain_df*
+**domain_dict*
+**connections*
+full_df.pkl
+**df_tokenized*
+**logit_signs*
+**logit_tokens*
+**logit_weights*
+**/classifier_comparison/models
+/datadir/GDI*
